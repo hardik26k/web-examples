@@ -1,0 +1,35 @@
+body{
+    padding: 50px;
+}
+
+.spinner{
+    width: 200px;
+    height: 200px;
+    animation: Morph 2000ms infinite;
+}
+
+@keyframes Morph {
+    0%,
+    100% {
+        border-radius: 50%;
+        transform: rotate(0deg);
+        background-color: pink;
+    }
+    50% {
+        border-radius: 0%;
+        transform: rotate(180deg);
+        background-color: lightblue;
+    }/*
+    0%,
+    100% {
+        border-radius: 50%;
+        transform: rotate(0deg);
+        background-color: rgb(201, 23, 224);
+    }
+    50% {
+        border-radius: 0%;
+        transform: rotate(180deg);
+        background-color: rgb(14, 90, 213);
+    }*/
+    
+}
