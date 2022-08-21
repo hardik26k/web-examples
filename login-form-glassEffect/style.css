@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500&display=swap');
 
 * {
     margin: 0;
@@ -25,7 +25,7 @@
 }
 
 .content{
-    border-radius: 10px;
+    border-radius: 3%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -49,6 +49,7 @@
 }
 
 .field{
+    border-radius: 30px;
     position: relative;
     height: 45px;
     width: 100%;
@@ -56,7 +57,7 @@
     background-color: rgba(255,255,255,0.94);
 }
 .field span{
-    color: #222;
+    color: #3494db;
     width: 40px;
     line-height: 45px;
 }
@@ -108,6 +109,7 @@
 .field input[type="submit"]{
     background: #682efc;
     border: 1px solid #7741fd;
+    border-radius: 30px;
     color: white;
     font-size: 18px;
     letter-spacing: 1px;
